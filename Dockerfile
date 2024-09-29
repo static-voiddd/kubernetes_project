@@ -17,4 +17,4 @@ RUN curl -L -o sample.zip https://codeload.github.com/jquery/jquery/zip/refs/hea
 CMD ["apachectl", "-D", "FOREGROUND"]
 
 # Expose port 80 for HTTP access
-EXPOSE 80 
+EXPOSE 80
