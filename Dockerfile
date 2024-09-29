@@ -1,5 +1,5 @@
-# Start with the CentOS base image
-FROM centos
+# Start with the CentOS 7 base image
+FROM centos:7
 
 # Install Apache HTTP server, curl, and tools for working with zip files
 RUN yum install -y httpd curl zip unzip
